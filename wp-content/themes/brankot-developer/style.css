@@ -1,0 +1,168 @@
+/*
+Theme Name: BrankoT-Developer
+Theme URI: https://www.free-css.com/free-css-templates/
+Author: Branko Teodorovic
+Author URI: https://brankot-developer.great-site.net
+Description: My Personal site for promoting site building skills
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: 
+Text Domain: BrankoT-Developer
+Tags: free html templates, free css templates. custumazed wordpress theme, one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+
+
+.skills_bg {
+  background-color: #1a1917;}
+
+.lable_text{
+  text-transform: uppercase;}
+
+.row2 {
+    height: 70%;
+}
+
+
+
+/* Hide .banner_sectionCell on mobile devices (smaller than 768px) */
+@media (max-width: 767px) {
+  .banner_sectionCell {
+    display: none;
+    /* Any specific styles to hide on mobile */
+  }
+  
+  /* Adjust .container_1 styles for mobile */
+  .container_1Cell {
+    /* For example, if you want the image to take the full width of the screen */
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto; /* Horizontally center the element */
+    /* Add any other specific styles for this class on mobile */
+  }
+  .nav-itemCell li a{
+    
+    background-color:  orange;
+    
+  }
+  .lable_text{
+  
+  font-size: 16px; /* Set the font size to 16 pixels */
+}
+.bannertextCell {
+  font-size: 16px;
+  width: 100%;
+  
+  overflow: hidden; /* Hides any content that overflows the width */
+  text-overflow: ellipsis; /* Shows an ellipsis (...) when content overflows */
+}
+.row2 {
+    height: 120%;
+}
+.clients_section{
+    margin-top: 50vw;
+}   
+
+.clients_section_2 .client_main,
+    .clients_section_2 .client_main_1 {
+        display: block;
+        margin-bottom: 20px; /* Adjust spacing between sections */
+    }
+    .clients_section_2 .client_left,
+    .clients_section_2 .client_right {
+        width: 100%; /* Make the left and right sections take up full width */
+        text-align: center; /* Center align text */
+    }
+    .clients_section_2 .client_left .client_img,
+    .clients_section_2 .client_left .client_img_10 {
+        margin: 0 auto; /* Center align images */
+    }
+}
+
+/* iframe container New Project Section create fullscreen to show another site on the frontpage  */
+.overlay0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9998; /* Below the iframe */
+  background-color: rgba(0, 0, 0, 0.9); /* Initially semi-transparent */
+  
+}
+.fullscreen0 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw; /* 3/5 of the viewport width */
+  height: 70vh; /* 3/5 of the viewport height */
+  z-index: 9999;
+}
+.overlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9998; /* Below the iframe */
+  background-color: rgba(0, 0, 0, 0.9); /* Initially semi-transparent */
+  
+}
+.fullscreen1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw; /* 3/5 of the viewport width */
+  height: 70vh; /* 3/5 of the viewport height */
+  z-index: 9999;
+}
+.overlay2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9998; /* Below the iframe */
+  background-color: rgba(0, 0, 0, 0.9); /* Initially semi-transparent */
+  
+}
+.fullscreen2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw; /* 3/5 of the viewport width */
+  height: 70vh; /* 3/5 of the viewport height */
+  z-index: 9999;
+}
+.fullscreen0 iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove iframe border if needed */
+}
+.fullscreen1 iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove iframe border if needed */
+}
+.fullscreen2 iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove iframe border if needed */
+}
+.close-icon {
+  position: absolute;
+  top: -2px; /* Moves the icon 2px above the div */
+  right: -30px; /* Moves the icon 2px outside the div */
+  cursor: pointer;
+   background-color: white;
+  color: black; /* Adjust the color of the icon */
+  border-radius: 50%; /* Makes it circular */
+  padding: 5px; /* Adds some padding to the icon */
+}
+
